@@ -200,6 +200,7 @@ blockquote {
 .tm-hero-subtitle {
   text-align: center;
   margin: 0 auto;
+  max-width: 80%;
 }
 
 @media (min-width: 991px) {
