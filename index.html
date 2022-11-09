@@ -21,7 +21,7 @@ https://www.tooplate.com/view/2117-infinite-loop
 
 <body>
   <!-- Hero section -->
-  <section id="infinite" class="text-white tm-font-big tm-parallax">
+  <section class="infinite text-white tm-font-big tm-parallax">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
       <div class="container">
@@ -294,12 +294,12 @@ https://www.tooplate.com/view/2117-infinite-loop
       return _offset;
     }
 
-    function setParallaxPosition($doc, multiplier, $object) {
-      var offset = getOffSet();
-      var from_top = $doc.scrollTop(),
-        bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
-      $object.css({ "background-position": bg_css });
-    }
+    // function setParallaxPosition($doc, multiplier, $object) {
+    //   var offset = getOffSet();
+    //   var from_top = $doc.scrollTop(),
+    //     bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+    //   $object.css({ "background-position": bg_css });
+    // }
 
     // Parallax function
     // Adapted based on https://codepen.io/roborich/pen/wpAsm        
@@ -322,7 +322,7 @@ https://www.tooplate.com/view/2117-infinite-loop
       multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
       multiplier = 1 - multiplier;
       var $doc = $(document);
-      $object.css({ "background-attachment": "fixed" });
+      // $object.css({ "background-attachment": "fixed" });
 
       $(window).scroll(function () {
         if ($(window).width() > 768) {
