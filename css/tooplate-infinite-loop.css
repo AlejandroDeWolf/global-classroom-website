@@ -262,6 +262,18 @@ blockquote {
   font-size: 1.2rem;
 }
 
+.btn_project {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.btn_project:hover {
+  background-color: #707070;
+  color: white;
+}
+
 .tm-icon {
   display: block;
   color: var(--primary-color);

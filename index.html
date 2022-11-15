@@ -58,9 +58,6 @@ https://www.tooplate.com/view/2117-infinite-loop
           Welcome to our website where we document our journey through the
           Global Classroom program.
         </p>
-
-        <a href="https://global-classroom-gallery.netlify.app/">Discover Our Dream City</a>
-
       </div>
     </div>
 
@@ -84,8 +81,9 @@ https://www.tooplate.com/view/2117-infinite-loop
               decided to make a storybook with images we have created
               ourselves witht he help of AI. Each image has a voice over, this
               way you can listen to it in the form of an audiobook.
-              <a href="https://global-classroom-gallery.netlify.app/" target="_blank">Check out our dream city</a>.
             </p>
+            <a href="https://global-classroom-gallery.netlify.app/" target="_blank" class="btn_project">Check out our
+              dream city</a>
           </div>
         </div>
       </div>
@@ -338,7 +336,7 @@ https://www.tooplate.com/view/2117-infinite-loop
       multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
       multiplier = 1 - multiplier;
       var $doc = $(document);
-      // $object.css({"background-attatchment" : "fixed"});
+      $object.css({ "background-attatchment": "fixed" });
 
       if (forceSet) {
         setParallaxPosition($doc, multiplier, $object);
@@ -353,7 +351,7 @@ https://www.tooplate.com/view/2117-infinite-loop
       multiplier = typeof multiplier !== "undefined" ? multiplier : 0.5;
       multiplier = 1 - multiplier;
       var $doc = $(document);
-      // $object.css({ "background-attachment": "fixed" });
+      $object.css({ "background-attachment": "fixed" });
 
       $(window).scroll(function () {
         if ($(window).width() > 768) {
