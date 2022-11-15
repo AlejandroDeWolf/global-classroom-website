@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 :root {
-  --primary-color: #46a094;
-  --primary-color-light: #6bbd99;
+  --primary-color: #46A094;
+  --primary-color-light: #6BBD99;
 }
 
 body {
@@ -117,7 +117,7 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #fff;
+  color: #FFF;
   background-color: var(--primary-color);
 }
 
@@ -232,16 +232,16 @@ blockquote {
 }
 
 .tm-down-arrow {
-  color: #fff;
+  color: #FFF;
   cursor: pointer;
   padding: 20px;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
   border-radius: 200px;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: #fff;
+  color: #FFF;
   background: var(--primary-color);
   padding: 20px;
   border-radius: 200px;
@@ -421,7 +421,7 @@ blockquote {
 }
 
 .grid figure figcaption,
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   position: absolute;
   top: 0;
   left: 0;
@@ -431,7 +431,7 @@ blockquote {
 
 /* Anchor will cover the whole item by default */
 /* For some effects it will show as a button */
-.grid figure figcaption > a {
+.grid figure figcaption>a {
   z-index: 1000;
   text-indent: 200%;
   white-space: nowrap;
@@ -616,7 +616,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a:hover {
-  color: #9cf;
+  color: #9CF;
 }
 
 .tm-footer-link {
@@ -680,6 +680,7 @@ p {
 }
 
 @media (max-width: 767px) {
+
   .navbar-nav {
     max-width: 200px;
     text-align: right;
